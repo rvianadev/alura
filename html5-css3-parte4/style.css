@@ -158,6 +158,7 @@ td, th {
 }
 
 .titulo-principal {
+  font-weight: 600;
   text-align: center;
   font-size: 2em;
   margin: 0 0 1em;
@@ -234,9 +235,14 @@ td, th {
 
 .imagem-beneficios {
   width: 60%;
+  opacity: 1;
+  transition: 400ms;
+  box-shadow: 10px 10px 10px #000000;
 }
 
-
+.imagem-beneficios:hover {
+  opacity: 0.3;
+}
 
 .video {
   width: 560px;

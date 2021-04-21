@@ -10,9 +10,29 @@
     <link href="./assets/css/style.css" rel="stylesheet" />
     <link href="./assets/css/destaques.css" rel="stylesheet" />
     <link href="./assets/css/populares.css" rel="stylesheet" />
+    <link href="./assets/css/menu.css" rel="stylesheet" />
   </head>
   <body class="app">
-    <header class="cabecalho">Cabeçalho</header>
+    <header class="cabecalho">
+      <nav class="menu">
+        <ul class="menu__lista">
+          <li class="menu__item">
+            <a class="menu__link ativo" href="#">
+              <i class="fas fa-home"></i>
+              Início
+            </a>
+            <a class="menu__link" href="#">
+              <i class="fas fa-mobile-alt"></i>
+              Aplicativos</a
+            >
+            <a class="menu__link" href="#">
+              <i class="fas fa-gamepad"></i>
+              Jogos
+            </a>
+          </li>
+        </ul>
+      </nav>
+    </header>
     <main class="conteudo">
       <section class="destaques">
         <div class="destaques__principal caixa">
@@ -106,7 +126,7 @@
               <div class="populares__card___corpo">
                 <div class="populares__card___cabecalho">
                   <h5 class="populares__card___titulo">Whatsapp</h5>
-                  <time class="populares__card___data" datetime="20090-01-01"
+                  <time class="populares__card___data" datetime="2009-01-01"
                     >2009</time
                   >
                 </div>
@@ -533,7 +553,7 @@
         </div>
       </section>
     </main>
-    <footer class="rodape">Rodapé</footer>
+    <footer class="rodape"></footer>
     <script src="./assets/js/fontawesome.all.min.js"></script>
   </body>
 </html>
